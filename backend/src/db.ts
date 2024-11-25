@@ -38,7 +38,7 @@ const contentSchema = new Schema<IContent>({
     },
     type:{
         type:String,
-        enum:["movies","politics","technology","audio","study"],
+        enum:["Entertainment","Politics","Twitter","Stocks","Study"],
         required:true
     },
     title:{
