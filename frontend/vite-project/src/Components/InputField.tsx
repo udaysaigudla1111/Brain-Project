@@ -10,7 +10,7 @@ const InputField = (props:inputObj) => {
     <div className="flex flex-col">
         <div className="mb-2 font-semibold text-sm">{props.label}</div>
         <div className="">
-            <input type="text" placeholder={props.placeholder} className="px-3 w-full py-2 border rounded-lg outline-blue-600" />
+            <input type="text" placeholder={props.placeholder} className="px-3  w-full py-2 border rounded-lg outline-blue-600" />
         </div>
     </div>
   )
